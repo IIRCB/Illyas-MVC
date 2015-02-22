@@ -16,6 +16,7 @@ class myView
 	$content  = "footer has content";
 	include "\\box\\layout\\theme\\rose\\footer.php";
 	}
+	
 }
 
 ?>

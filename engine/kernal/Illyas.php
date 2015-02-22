@@ -2,7 +2,7 @@
 /*
  *  Illyas Controller - base controller
  */
-class IllyasController 
+class Illyas 
 {
 	public function model($model)
 	{

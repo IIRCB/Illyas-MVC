@@ -19,5 +19,9 @@ class IllyasController
 		//var_dump($mod);
 		return $v;
 	}
+	public function route()
+	{
+	
+	}
 }
 ?>

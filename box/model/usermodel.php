@@ -6,7 +6,7 @@ class userModel
 {
 	public function test()
 	{
-		echo 'from user model<br />';
+		echo 'This is from user model<br />';
 	}
 }
 

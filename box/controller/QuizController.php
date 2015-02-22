@@ -5,15 +5,15 @@
 /*
  *  Quiz Controller
  */
-class QuizController extends IllyasController
+class QuizController
 {
 	public function __construct() 
 	{
-	  	echo "myClass init'ed successfuly!!!";
+	  	echo "QuizController init'ed successfuly!!!";
 	}	
 	function IndexAction()
 	{
-		print 'MVC Index Controller is working';
+		print 'Quiz Index action is working<br />';
 		$user = $this->model('usermodel');
 		
 		$user->test();
@@ -22,7 +22,7 @@ class QuizController extends IllyasController
 	}
 	function RegisterAction()
 	{
-		print 'MVC Register Controller';
+		print 'Quiz Register action';
 		$user = $this->model('usermodel');
 		
 		//$user->test();
