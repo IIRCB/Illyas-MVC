@@ -1,28 +1,29 @@
-<?php
+<?php namespace box\modules\cms\controller;
+
+use Box\Modules\Cms\Model;
 /*
  *  Quiz Controller
  */
-class CmsController extends Illyas
+class Cmscontroller
 {
+    public $user,$view;
 	public function __construct() 
 	{
 	  	//echo "CmsController init'ed successfuly form CMS module!!!<br />";
+            $this->user = new \Box\Modules\Cms\Model\Usermodel();
+            $this->view = new \Box\Modules\Cms\View\Myview();
 	}	
 	function IndexAction()
 	{
 		//print 'Cms module Index Action is working<br />';
-		$user = $this->model('usermodel');
-		$cms = $this->model('cmsmodel');
-		//$user->test();
-		//$cms->save();
-		//$this->view('myview')->header();
-		//$this->view('myview')->footer();
-		$this->view('myview')->homepage();
+		$this->user->test();
+		
+		 $this->view->homepage();
 	}
 	function ViewAction()
 	{
 		//print 'Cms module View action<br />';
-		$user = $this->model('usermodel');
+		$this->user->test();
 		
 		//$user->test();
 		$this->view('myview')->header();

@@ -1,23 +1,22 @@
-<?php
+<?php namespace box\modules\contact\controller;
 /*
  *  Quiz Controller
  */
-class ContactController extends Illyas
+use Box\Modules\Contact\Model;
+class ContactController
 {
+    public $user,$view;
 	public function __construct() 
 	{
 	  	//echo "CmsController init'ed successfuly form CMS module!!!<br />";
+            $this->user = new \Box\Modules\Cms\Model\Usermodel();
+            $this->view = new \Box\Modules\Cms\View\Myview();
 	}	
 	function IndexAction()
 	{
 		//print 'Cms module Index Action is working<br />';
-		$user = $this->model('usermodel');
-		$cms = $this->model('cmsmodel');
-		//$user->test();
-		//$cms->save();
-		//$this->view('myview')->header();
-		//$this->view('myview')->footer();
-		$this->view('myview')->homepage();
+		
+		$this->view->homepage();
 	}
 	function SubmitAction()
 	{

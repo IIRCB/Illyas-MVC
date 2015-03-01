@@ -1,5 +1,5 @@
-<?php
-class Cmsroutes 
+<?php namespace box\modules\cms;
+class routes 
 {
 	function aliases()
 	{

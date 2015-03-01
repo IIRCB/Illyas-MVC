@@ -1,4 +1,4 @@
-<?php
+<?php namespace box\model;
 /**
 * Author: Najeem M Illyas
 */

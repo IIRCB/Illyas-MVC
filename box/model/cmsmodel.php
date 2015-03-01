@@ -1,4 +1,5 @@
-<?php
+<?php namespace box\model;
+use Kernal;
 class cmsModel
 {
 	public function save()

@@ -1,4 +1,4 @@
-<?php
+<?php namespace box\modules\cms\view;
 class myView
 {
 	function header()

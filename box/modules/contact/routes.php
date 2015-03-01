@@ -1,11 +1,11 @@
-<?php
-class Contactroutes 
+<?php namespace box\modules\contact;
+class routes 
 {
 	function aliases()
 	{
 	
 	$cms = array(
-		"contact/submit" => "contact/contact/Submit",
+		"contact/submit" => "contact/contact/submit",
 		
 		);
 		

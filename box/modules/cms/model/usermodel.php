@@ -1,4 +1,4 @@
-<?php
+<?php namespace box\modules\cms\model;
 class userModel
 {
 	public function test()

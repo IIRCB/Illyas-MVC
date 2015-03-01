@@ -1,7 +1,8 @@
-<?php
+<?php namespace box\view;
 /**
 * Author: Najeem M Illyas
 */
+use Kernal;
 class myView
 {
 	function header()

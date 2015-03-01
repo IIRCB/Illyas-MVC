@@ -11,6 +11,11 @@ define('MODULAR', true); //this is mandatory to enable modular. Both modular and
 define('ROUTES_ENABLED', true);
 define('THEME_PATH', '/layout/theme/'); //do not change this
 define('ACTIVE_THEME', 'urbanic');
-include 'engine/kernal/Illyasinit.php';
+//echo 'index';
+//include 'engine/kernal/Illyasinit.php';
+include 'bootstrap.php';
+
+include 'Illyasinit.php';
+
 
 ?>
