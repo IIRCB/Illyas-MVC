@@ -11,3 +11,7 @@ define('MODULAR', true); //this is mandatory to enable modular. Both modular and
 define('ROUTES_ENABLED', true);
 define('THEME_PATH', '/layout/theme/'); //do not change this
 define('ACTIVE_THEME', 'urbanic');
+
+Illyas MVC core has been moved to vendor directory and is not as part of this distribution. So after downloading this, you have to use compose update in the root folder.
+
+Sample application is supplied with sample theme.
